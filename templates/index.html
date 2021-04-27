@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+                <div class="form-group">
+                    <a class="btn btn-outline-info" href="{{ url_for('consensus') }}">Resolve</a>
+                    <a class="btn btn-outline-info" href="{{ url_for('register_nodes') }}">Register</a>
+              
+                      
+                </div>
+          </div>
+        </article>
+   
+{% endblock content %}

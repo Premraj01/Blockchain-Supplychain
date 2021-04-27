@@ -1,0 +1,26 @@
+{
+    "chain": [
+        {
+            "index": 1,
+            "previous_hash": "1",
+            "proof": 100,
+            "timestamp": 1600577799.057077,
+            "transactions": []
+        },
+        {
+            "index": 2,
+            "previous_hash": "fb9308b29d02614f581bf22bb139c978bba5b0ebf4635c6893416184f239dc26",
+            "proof": 35293,
+            "timestamp": 1600577855.9180777,
+            "transactions": [
+                {
+                    "Manufacturing_Date": "10/04/2020",
+                    "Owner": "192.168.137.1",
+                    "company_name": "cipla",
+                    "medicine_name": "nicip"
+                }
+            ]
+        }
+    ],
+    "message": "Our chain is authoritative"
+}
